@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{A48E09A0-8DA9-DFEF-9A3E-A0F55704FAAF}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Atoms\Assert.cs" />
+     <Compile Include="Assets\Atoms\At.cs" />
+     <Compile Include="Assets\Atoms\Atom.cs" />
+     <Compile Include="Assets\Atoms\Atomize.cs" />
+     <Compile Include="Assets\Atoms\Bind.cs" />
+     <Compile Include="Assets\Atoms\Bond.cs" />
+     <Compile Include="Assets\Atoms\CatchError.cs" />
+     <Compile Include="Assets\Atoms\Chain.cs" />
+     <Compile Include="Assets\Atoms\Conditional.cs" />
+     <Compile Include="Assets\Atoms\Cycle.cs" />
+     <Compile Include="Assets\Atoms\DetachJoin.cs" />
+     <Compile Include="Assets\Atoms\Do.cs" />
+     <Compile Include="Assets\Atoms\Futures\Future.cs" />
+     <Compile Include="Assets\Atoms\Futures\Utils.cs" />
+     <Compile Include="Assets\Atoms\Join.cs" />
+     <Compile Include="Assets\Atoms\KeepDoing.cs" />
+     <Compile Include="Assets\Atoms\LazyAtoms.cs" />
+     <Compile Include="Assets\Atoms\Map.cs" />
+     <Compile Include="Assets\Atoms\MapErrors.cs" />
+     <Compile Include="Assets\Atoms\Molecules\Molecules.cs" />
+     <Compile Include="Assets\Atoms\Molecules\WaitWhile.cs" />
+     <Compile Include="Assets\Atoms\OnFirstError.cs" />
+     <Compile Include="Assets\Atoms\OnLastError.cs" />
+     <Compile Include="Assets\Atoms\Quantum.cs" />
+     <Compile Include="Assets\Atoms\Sequence.cs" />
+     <Compile Include="Assets\Atoms\StateMachine.cs" />
+     <Compile Include="Assets\Atoms\Streams\Stream.cs" />
+     <Compile Include="Assets\Atoms\Switch.cs" />
+     <Compile Include="Assets\Atoms\Wait.cs" />
+     <Compile Include="Assets\Atoms\WebLoad.cs" />
+     <Compile Include="Assets\Atoms\While.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CylinderTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DataSetLoadBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DefaultTrackableEventHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\GLErrorHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\ImageTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\AndroidUnityPlayer.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\BGRenderingBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\KeepAliveBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MarkerBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MaskOutBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MultiTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\QCARBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\SetBGCameraLayerBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TextRecoBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TurnOffBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TurnOffWordBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\VirtualButtonBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WebCamBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeTrackableEventHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\Scripts\FrameMarkerUIEventHandler.cs" />
+     <Compile Include="Assets\Scripts\FrameMarkerUIView.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\AboutScreenView.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\AppManager.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\InputController.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\SceneViewManager.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\SplashScreenView.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\UIBox.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\UIButton.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\UICheckButton.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\UIConstants.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\UIElement.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\UIEventHandler.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\UILabel.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\UIRadioButton.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\UIRect.cs" />
+     <Compile Include="Assets\Scripts\UIFramework\UIView.cs" />
+     <Compile Include="Assets\audioEnable.cs" />
+     <Compile Include="Assets\tatacoa\src\DoIf.cs" />
+     <Compile Include="Assets\tatacoa\src\Either.cs" />
+     <Compile Include="Assets\tatacoa\src\FList.cs" />
+     <Compile Include="Assets\tatacoa\src\Fn.cs" />
+     <Compile Include="Assets\tatacoa\src\Lazy.cs" />
+     <Compile Include="Assets\tatacoa\src\Maybe.cs" />
+     <Compile Include="Assets\tatacoa\src\Promise.cs" />
+     <Compile Include="Assets\tatacoa\src\SafeMaybe.cs" />
+     <Compile Include="Assets\tatacoa\src\Seq.cs" />
+     <Compile Include="Assets\tatacoa\src\Tuple.cs" />
+     <Compile Include="Assets\tatacoa\src\XMaybe.cs" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\Editor\QCAR\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\DepthMask.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\DemosHGInnovacion.xml" />
+     <None Include="Assets\StreamingAssets\QCAR\olas.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Resources\Vuforia_About.txt" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\unity.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Qualcomm.Vuforia.UnityExtensions">
+ <HintPath>/Users/EstebanHiguitaGarcia/Desktop/AppMonica/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
