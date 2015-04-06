@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{A48E09A0-8DA9-DFEF-9A3E-A0F55704FAAF}</ProjectGuid>
+	<ProjectGuid>{9B19C42D-85BF-0A47-7186-EC2B49077D9D}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,37 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Atoms\Assert.cs" />
-     <Compile Include="Assets\Atoms\At.cs" />
-     <Compile Include="Assets\Atoms\Atom.cs" />
-     <Compile Include="Assets\Atoms\Atomize.cs" />
-     <Compile Include="Assets\Atoms\Bind.cs" />
-     <Compile Include="Assets\Atoms\Bond.cs" />
-     <Compile Include="Assets\Atoms\CatchError.cs" />
-     <Compile Include="Assets\Atoms\Chain.cs" />
-     <Compile Include="Assets\Atoms\Conditional.cs" />
-     <Compile Include="Assets\Atoms\Cycle.cs" />
-     <Compile Include="Assets\Atoms\DetachJoin.cs" />
-     <Compile Include="Assets\Atoms\Do.cs" />
-     <Compile Include="Assets\Atoms\Futures\Future.cs" />
-     <Compile Include="Assets\Atoms\Futures\Utils.cs" />
-     <Compile Include="Assets\Atoms\Join.cs" />
-     <Compile Include="Assets\Atoms\KeepDoing.cs" />
-     <Compile Include="Assets\Atoms\LazyAtoms.cs" />
-     <Compile Include="Assets\Atoms\Map.cs" />
-     <Compile Include="Assets\Atoms\MapErrors.cs" />
-     <Compile Include="Assets\Atoms\Molecules\Molecules.cs" />
-     <Compile Include="Assets\Atoms\Molecules\WaitWhile.cs" />
-     <Compile Include="Assets\Atoms\OnFirstError.cs" />
-     <Compile Include="Assets\Atoms\OnLastError.cs" />
-     <Compile Include="Assets\Atoms\Quantum.cs" />
-     <Compile Include="Assets\Atoms\Sequence.cs" />
-     <Compile Include="Assets\Atoms\StateMachine.cs" />
-     <Compile Include="Assets\Atoms\Streams\Stream.cs" />
-     <Compile Include="Assets\Atoms\Switch.cs" />
-     <Compile Include="Assets\Atoms\Wait.cs" />
-     <Compile Include="Assets\Atoms\WebLoad.cs" />
-     <Compile Include="Assets\Atoms\While.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CylinderTargetBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DataSetLoadBehaviour.cs" />
@@ -121,17 +90,6 @@
      <Compile Include="Assets\Scripts\UIFramework\UIRect.cs" />
      <Compile Include="Assets\Scripts\UIFramework\UIView.cs" />
      <Compile Include="Assets\audioEnable.cs" />
-     <Compile Include="Assets\tatacoa\src\DoIf.cs" />
-     <Compile Include="Assets\tatacoa\src\Either.cs" />
-     <Compile Include="Assets\tatacoa\src\FList.cs" />
-     <Compile Include="Assets\tatacoa\src\Fn.cs" />
-     <Compile Include="Assets\tatacoa\src\Lazy.cs" />
-     <Compile Include="Assets\tatacoa\src\Maybe.cs" />
-     <Compile Include="Assets\tatacoa\src\Promise.cs" />
-     <Compile Include="Assets\tatacoa\src\SafeMaybe.cs" />
-     <Compile Include="Assets\tatacoa\src\Seq.cs" />
-     <Compile Include="Assets\tatacoa\src\Tuple.cs" />
-     <Compile Include="Assets\tatacoa\src\XMaybe.cs" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\RenderVideoBackground.shader" />
@@ -149,7 +107,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
- <HintPath>/Users/EstebanHiguitaGarcia/Desktop/AppMonica/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/EstebanHiguitaGarcia/Desktop/AppMonica/Monica/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
